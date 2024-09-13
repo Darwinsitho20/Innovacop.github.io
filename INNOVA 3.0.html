@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNOVA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header .logo {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box {
+            width: 250px;
+            height: 150px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.3s;
+            text-decoration: none;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+        }
+
+        .purple {
+            background-color: #6a0dad;
+            color: white;
+        }
+
+        .white {
+            background-color: white;
+            color: black;
+        }
+
+        .black {
+            background-color: #222;
+            color: white;
+        }
+
+        .yellow {
+            background-color: yellow;
+            color: black;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #6a0dad;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #4b0082;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">INNOVA</h1>
+    </header>
+
+    <div class="container">
+        <a class="box purple" href="Productosyservicios.html">
+            <p>Productos & Servicios</p>
+        </a>
+        <a class="box white" href="Misproyectos.html">
+            <p>Mis Proyectos</p>
+        </a>
+        <a class="box black" href="Acerca de.html">
+            <p>Acerca De</p>
+        </a>
+        <a class="box yellow" href="contact.html">
+            <p>Contacto</p>
+        </a>
+    </div>
+
+    <script>
+        // Puedes agregar más interactividad aquí si lo necesitas.
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Estilo del contenedor para la imagen del logo */
+        .logo-container {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden; /* Para que la imagen sea redonda */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Para que la imagen se ajuste bien al contenedor */
+        }
+
+        .box {
+            width: 250px;
+            height: 150px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.3s, background-color 0.3s;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+        }
+
+        .yellow {
+            background-color: yellow;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Estilo para el botón */
+        .button {
+            padding: 15px 30px;
+            background-color: yellow;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Contenedor del logo como imagen redonda -->
+        <div class="logo-container">
+            <img src="https://files.oaiusercontent.com/file-DO7UhVws44LbUVLxMtxHyj9y?se=2024-09-11T21%3A45%3A07Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4ecd4f32-6c6c-4c7d-9015-0eb3d9493ccc.webp&sig=/baBCPmhRaCcxqjBm/HXHJF6lJxJCVlXnh6VPkyZbT8%3D" alt="Logo"> <!-- Reemplaza este enlace con la URL de tu imagen -->
+        </div>
+    </header>
+
+    <p>Aquí puedes ver todos mis proyectos e ideas.</p>
+
+    <!-- Botón que lleva a archivo.html -->
+    <a href="rutadetrabajo.html">
+        <button class="button">RUTA DE TRABAJO</button>
+    </a>
+</body>
+</html>
